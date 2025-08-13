@@ -6,9 +6,10 @@ This project's flow is as follows:
 ----------------------------------------------------
 Instructions:
 1. upload AI Training document to ./data/ as a pdf.
-2. run src.chunker.py to create the chunks folder (if it does not already exist).
-3. Navigate to the project folder using the terminal
-4. run the streamlit app by typing following line in the terminal
+2. Download the LLM Llama-3.2-3B-Instruct-Q4_K_S.gguf from https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF and save the model locally to ./src
+3. run src.chunker.py to create the chunks folder (if it does not already exist).
+4. Navigate to the project folder using the terminal
+5. run the streamlit app by typing following line in the terminal
 
         streamlit run app.py
 
@@ -20,3 +21,4 @@ The embedding model used is
 all-MiniLM-L6-v2, specialising in short chunks of text, ideal when dealing with the requirement to be specific when reviewing legal documents
 ----------------------------------------------------
 GIF link showing chatbot streaming responses:  https://www.canva.com/design/DAGv8kPDINo/zQKERq586u3hbI-P7ztxhQ/watch?utm_content=DAGv8kPDINo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdb923b8434
+
